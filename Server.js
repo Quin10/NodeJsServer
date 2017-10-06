@@ -13,6 +13,6 @@ app.post('/', urlencodedParser, (req, res) =>{
     
 });
 
-var port = 8009;
+var port = 3306;
 app.listen(port);
 console.log('Listening on port',port);
